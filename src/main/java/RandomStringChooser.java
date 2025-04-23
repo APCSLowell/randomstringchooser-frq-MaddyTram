@@ -9,8 +9,8 @@ public class RandomStringChooser
 
   public RandomStringChooser(String[] wordArray) {
     word = new ArrayList<String>();
-    for(int i = 0; i < wordArray.size(); i++) {
-      word.add(wordArray.get(i));
+    for(int i = 0; i < wordArray.length; i++) {
+      word.add(wordArray[i]);
     }
   }
 
